@@ -1,0 +1,114 @@
+site_name: 'hyperdefined'
+site_description: "I'm hyperdefined, a fluffy, flower wolf. I'm and IT nerd and developer."
+site_author: 'hyperdefined'
+site_url: 'https://hyper.lol'
+
+copyright: |
+  &copy; hyperdefined
+
+docs_dir: docs/
+
+repo_name: hyperdefined/website
+repo_url: https://hyperdefined/hyperdefined/website
+
+theme:
+  name: 'material'
+  custom_dir: 'theme'
+  logo: 'assets/img/android-chrome-384x384.png'
+  palette:
+    scheme: 'slate'
+    primary: 'black'
+    accent: 'blue'
+  icon:
+    repo: simple/github
+    admonition:
+      note: octicons/pencil-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/comment-16
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - content.code.annotate
+
+extra_css:
+- assets/css/extra.css
+
+watch:
+  - theme
+
+extra:
+  social:
+    - icon: 'simple/github'
+      link: 'https://github.com/hyperdefined'
+    - icon: 'simple/x'
+      link: 'https://twitter.com/hyperdefined'
+    - icon: 'simple/youtube'
+      link: 'https://www.youtube.com/@hyperdefined'
+    - icon: 'simple/tiktok'
+      link: 'https://www.tiktok.com/@hyp3rdefined'
+    - icon: 'simple/telegram'
+      link: 'https://t.me/hyperdefined'
+    - icon: 'material/email'
+      link: 'mailto:contact@hyper.lol'
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+  - Projects:
+    - projects/index.md
+  - Fursona:
+    - fursona/index.md
+  - Contact:
+    - contact/index.md  
+
+plugins:
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      authors: false
+      post_date_format: 'dd. MMM yyyy'
+      post_url_date_format: yyyy
+      post_url_format: '{date}/{file}'
+      archive: true
+      archive_url_format: '{date}'
+      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+      draft_if_future_date: true
+  - rss:
+      match_path: blog/posts/*
+      categories:
+        - categories
+        - tags
+  - glightbox
+
+markdown_extensions:
+  - markdown.extensions.meta:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.toc:
+      permalink: true
+  - markdown.extensions.tables:
+  - markdown.extensions.md_in_html:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+  - pymdownx.magiclink:
+  - pymdownx.smartsymbols:
+  - pymdownx.snippets:
+      base_path: 'theme/snippets'
+  - pymdownx.superfences:
+  - pymdownx.tilde:
+  - admonition:
+  - pymdownx.blocks.details:
+  - pymdownx.blocks.tab:
+      alternate_style: true
