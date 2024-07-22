@@ -6,6 +6,8 @@ categories:
   - Spigot Hacks
   - Guides
   - Coding
+authors:
+  - hyperdefined
 ---
 
 When writing ToolStats, I wanted to figure out how to tell who opens a newly spawned chest. These are chests that spawn with structures. This is a little hack I’ve come up with.

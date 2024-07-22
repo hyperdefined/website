@@ -9,7 +9,9 @@ copyright: |
 docs_dir: docs/
 
 repo_name: hyperdefined/website
-repo_url: https://hyperdefined/hyperdefined/website
+repo_url: https://github.com/hyperdefined/website
+
+build_type: !ENV BUILD_TYPE
 
 theme:
   name: 'material'
@@ -76,8 +78,8 @@ plugins:
   - blog:
       blog_dir: blog
       blog_toc: true
-      authors: false
-      post_date_format: 'dd. MMM yyyy'
+      authors: true
+      post_date_format: 'MMMM d, yyyy'
       post_url_date_format: yyyy
       post_url_format: '{date}/{file}'
       archive: true
@@ -88,7 +90,6 @@ plugins:
       match_path: blog/posts/*
       categories:
         - categories
-        - tags
   - glightbox
 
 markdown_extensions:

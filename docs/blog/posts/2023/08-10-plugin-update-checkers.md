@@ -5,6 +5,8 @@ date: 2023-08-09
 categories:
   - Guides
   - Coding
+authors:
+  - hyperdefined
 ---
 
 I have a decent chunk of plugins that I created for Minecraft. One feature I really like in them are update checkers. Server admins usually get lazy and don’t check themselves, so having the plugin automatically tell them is easier. There’s a few ways to achieve this.

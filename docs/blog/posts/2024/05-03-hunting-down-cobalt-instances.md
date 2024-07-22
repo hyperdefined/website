@@ -6,6 +6,8 @@ categories:
   - Guides
   - Fun
 image: assets/img/posts/hunting-down-cobalt-instances/1.png
+authors:
+  - hyperdefined
 ---
 
 [cobalt](https://github.com/wukko/cobalt), if you don't know, is an awesome social media content downloader. You all know those wonderful "youtube to mp3 no virus plz" sites. They are full of ads and tracking. That's where cobalt comes in. It supports a _ton_ of different social media sites to download content.

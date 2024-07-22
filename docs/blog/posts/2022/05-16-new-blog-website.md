@@ -4,6 +4,8 @@ description: "I finally decided to start a blog, and maybe actually attempt to w
 date: 2022-05-16
 categories:
   - Site Updates
+authors:
+  - hyperdefined
 ---
 
 I finally decided to start a blog, and maybe actually attempt to write stuff here. However, I was really happy with my current website design and did not want to restart (this site has changed so many times over the years). To compromise, I converted my website to use Hugo!
