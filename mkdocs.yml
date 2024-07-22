@@ -11,8 +11,6 @@ docs_dir: docs/
 repo_name: hyperdefined/website
 repo_url: https://github.com/hyperdefined/website
 
-build_type: !ENV BUILD_TYPE
-
 theme:
   name: 'material'
   custom_dir: 'theme'
@@ -63,6 +61,7 @@ extra:
       link: 'https://t.me/hyperdefined'
     - icon: 'material/email'
       link: 'mailto:contact@hyper.lol'
+  build_type: !ENV BUILD_TYPE
 nav:
   - Home: index.md
   - Blog:
