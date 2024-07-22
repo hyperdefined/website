@@ -1,5 +1,5 @@
 ---
-image: assets/img/pages/fursuit.png
+image: assets/img/pages/fursuit.jpg
 description: hyperdefined's fursona information.
 hide:
   - navigation
@@ -54,7 +54,7 @@ My fursuit progress start in the summer of 2022 after I went to Anthrocon. I was
 
 <figure markdown="span">
     ![me][me]{ loading=lazy }
-    <figcaption>Anthrocon 2024</figcaption>
+    <figcaption>FWA 2024</figcaption>
 </figure>
 <figure markdown="span">
     ![me2][me2]{ loading=lazy }
@@ -62,5 +62,5 @@ My fursuit progress start in the summer of 2022 after I went to Anthrocon. I was
 </figure>
 
 [reference]: ../assets/img/pages/fursona-ref.png "hyper's reference sheet"
-[me]: ../assets/img/pages/fursuit.png "hyper's fursuit photo #1"
+[me]: ../assets/img/pages/fursuit.jpg "hyper's fursuit photo #1"
 [me2]: ../assets/img/pages/fursuit2.jpg "hyper's fursuit photo #2"
