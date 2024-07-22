@@ -17,8 +17,6 @@ recursive_minify() {
     done
 }
 npm install html-minifier -g
-# Compile the site
-pip install -r requirements.txt
 # Set the target environment
 export BUILD_TYPE=production
 echo "Running: $BUILD_TYPE"
