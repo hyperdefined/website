@@ -86,6 +86,7 @@ plugins:
       match_path: blog/posts/*
       categories:
         - categories
+      use_git: false
   - glightbox
 
 markdown_extensions:
