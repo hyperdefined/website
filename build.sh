@@ -17,8 +17,6 @@ recursive_minify() {
     done
 }
 npm install html-minifier -g
-# Set the target environment
-export BUILD_TYPE=production
 echo "Running: $BUILD_TYPE"
 mkdocs build
 recursive_minify "site"

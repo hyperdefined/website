@@ -65,13 +65,10 @@ extra:
 nav:
   - Home: index.md
   - Blog:
-    - blog/index.md
-  - Projects:
-    - projects/index.md
-  - Fursona:
-    - fursona/index.md
-  - Contact:
-    - contact/index.md  
+    -  blog/index.md
+  - Projects: projects/index.md
+  - Fursona: fursona/index.md
+  - Contact: contact/index.md  
 
 plugins:
   - blog:

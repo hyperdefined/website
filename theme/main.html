@@ -23,6 +23,10 @@
     <meta name="twitter:title" content="{{ title }}">
   {% endif %}
 
+  {% if config.extra.build_type == 'production' %}
+    <script defer src="https://data.hyper.lol/script.js" data-website-id="81e8435b-90f4-459b-9a42-8bd8bdd48f9d"></script>
+  {% endif %}
+
   {% if page and page.meta and page.meta.description %}
     <meta property="og:description" content="{{ page.meta.description }}">
     <meta name="twitter:description" content="{{ page.meta.description }}">
