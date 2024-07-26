@@ -1,6 +1,6 @@
 ---
 template: frontpage.html
-description: I'm hyperdefined, a fluffy, flower wolf. I'm an IT nerd and developer.
+description: I’m hyperdefined, a fluffy, flower wolf. I’m an IT nerd and developer. This is my main website for posting information about projects & my blog.
 hide:
   - toc
 ---
