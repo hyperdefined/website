@@ -6,7 +6,7 @@ recursive_minify() {
     for file in "$folder"/*.html; do
         if [ -f "$file" ]; then
             echo "Minifying: $file"
-            html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype "$file" -o "$file"
+            html-minifier --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype "$file" -o "$file"
         fi
     done
 
