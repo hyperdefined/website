@@ -92,6 +92,12 @@ plugins:
         datetime_format: "%Y-%m-%d"
         default_timezone: America/New_York
   - glightbox
+  - minify:
+      minify_html: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
 
 markdown_extensions:
   - markdown.extensions.meta:
