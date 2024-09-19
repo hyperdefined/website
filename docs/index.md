@@ -45,3 +45,5 @@ I’m also a fursuiter!
     [:octicons-chevron-right-16: Go to Contact](contact/index.md)
 
 </div>
+
+<div id="cobaltWebring"></div>

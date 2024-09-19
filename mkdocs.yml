@@ -44,6 +44,9 @@ theme:
 extra_css:
 - assets/css/extra.css
 
+extra_javascript:
+- 'https://instances.hyper.lol/assets/js/webring.js'
+
 watch:
   - theme
 
