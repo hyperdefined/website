@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: hyperdefined
-url: "https:/hyper.lol" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hyper.lol" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: "/blog/:year/:month-:day/:slug"
 
