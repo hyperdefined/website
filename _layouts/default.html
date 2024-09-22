@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include navbar.html %}
+{% if page.layout != 'post' and page.layout != 'home' %}
+<h2>{{ page.title }}</h2>
+{% endif %}
+{{ content }}
+{% if page.layout != 'home' %}
+{% include footer.html %}
+{% endif %}
+</body>
+<script type="text/javascript" src="{{ site.url }}/assets/js/navbar.js"></script>
+</html>

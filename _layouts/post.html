@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<div class="post-info">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.date | date: "%-d %B %Y" }} - {{ page.content | reading_time }}</p>
+    <p>{{ page.description }}</p>
+</div>
+{{ content }}
