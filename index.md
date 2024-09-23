@@ -9,3 +9,5 @@ I’m hyperdefined, a fluffy, flower wolf. I’m an IT nerd and developer. This 
 I’m also a fursuiter!
 
 You can explore the links at the top to see more information.
+
+<div id="cobaltWebring"></div>
