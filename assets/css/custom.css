@@ -1,5 +1,6 @@
 body {
-    font-family: monospace;
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
     max-width: 850px;
 }
 header {

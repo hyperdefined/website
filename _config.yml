@@ -39,7 +39,10 @@ jekyll-archives:
     - year
     - month
     - day
-  layout: archive
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
   permalinks:
     year: /blog/:year/
     month: /blog/:year/:month/

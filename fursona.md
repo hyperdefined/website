@@ -3,6 +3,7 @@ layout: default
 title: "Fursona"
 description: "hyperdefined's fursona information."
 permalink: /fursona/
+image: "/assets/images/fursona/fursuit.jpg"
 ---
 Hyper is a regular wolf (_canis lupus_). His main color is black with gray as his accent color. Paws are gray on the inside with black beans and a heart.
 
@@ -35,6 +36,8 @@ These are the exact colors used from his reference sheet.
 Hyper's first name was originally Dante. He was mostly inspired from Legoshi and my personality. I created him around the end of 2020 for a story I wanted to write. His history and personality were created before his appearance was.
 
 I commissioned him December 2021 for his reference sheet. I wanted his design to be simple, as I didn't want to think to hard on patterns and whatnot.
+
+He's turned into a copy of myself, a way to experiment different aspects of my life onto him.
 
 ---
 

@@ -22,14 +22,28 @@
     <meta property="twitter:domain" content="{{ site.url }}">
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="{{ site.title }} - {{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/android-chrome-310x310.png">
-    <meta property="og:image" content="{{ site.url }}/assets/images/android-chrome-310x310.png">
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+        <meta name="twitter:description" content="hyperdefined's website.">
+    {% endif %}
+
+    {% if page.image %}
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+        <meta name="twitter:card" content="summary_large_image">
+    {% else %}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="{{ site.url }}/assets/images/android-chrome-310x310.png">
+        <meta property="og:image" content="{{ site.url }}/assets/images/android-chrome-310x310.png">
+    {% endif %}
 
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/custom.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/responsive.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/light-mode.css">

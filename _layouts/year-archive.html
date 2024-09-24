@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Archive
 ---
+<h2>Posts from {{ page.date | date: "%Y" }}</h2>
+
 {% for post in page.posts %}
     {% include post-item.html %}
 {% endfor %}

@@ -1,0 +1,8 @@
+---
+layout: default
+---
+<h2>Posts from {{ page.date | date: "%B %Y" }}</h2>
+
+{% for post in page.posts %}
+    {% include post-item.html %}
+{% endfor %}
