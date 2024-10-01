@@ -20,6 +20,7 @@ button:hover {
 }
 .avatar {
     border-radius: 50%;
+    margin-bottom: 0;
 }
 .post-info {
     text-align: center;
