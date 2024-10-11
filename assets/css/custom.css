@@ -38,7 +38,8 @@ button:hover {
     font-size: 15px;
     -webkit-tap-highlight-color: transparent;
 }
-.menu-toggle:active, .menu-toggle:hover {
+.menu-toggle:active,
+.menu-toggle:hover {
     background-color: #555;
 }
 .menu-toggle:focus {
@@ -82,7 +83,17 @@ nav li a:focus {
 header {
     margin-bottom: 1rem;
     border-bottom: 3px solid;
-    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-image: linear-gradient(
+            to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet
+        )
+        1;
 }
 .navigation {
     display: flex;
@@ -97,7 +108,17 @@ header {
 footer {
     background: var(--nc-bg-2);
     border-top: 3px solid;
-    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-image: linear-gradient(
+            to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet
+        )
+        1;
     padding: 2rem 1.5rem;
     margin: 2rem calc(0px - (50vw - 50%)) -2rem;
     padding-left: calc(50vw - 50%);
@@ -160,14 +181,24 @@ a button:hover {
     box-sizing: border-box;
     border-radius: 10px;
     position: relative;
-    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-image: linear-gradient(
+            to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet
+        )
+        1;
     border-width: 4px;
     border-style: solid;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .card-container {
     padding: 16px;
@@ -189,5 +220,15 @@ figure {
     justify-content: center;
 }
 hr {
-    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
+    border-image: linear-gradient(
+            to right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            violet
+        )
+        1;
 }

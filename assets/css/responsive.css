@@ -16,7 +16,7 @@
     nav.active ul {
         display: flex;
     }
-	nav li {
+    nav li {
         width: 100%;
     }
     nav li a {

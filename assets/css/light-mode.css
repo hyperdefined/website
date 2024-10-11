@@ -1,8 +1,13 @@
 @media (prefers-color-scheme: light) {
-    header h1, nav li a {
-      color: black;
+    header h1,
+    nav li a {
+        color: black;
     }
     .menu-toggle {
         background-color: #555;
+    }
+    .post-info {
+        background-color: #f6f8fa;
+        color: black;
     }
 }
