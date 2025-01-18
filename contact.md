@@ -9,7 +9,6 @@ You can find me on most social media sites as `hyperdefined`.
 
 * Twitter - [@hyperdefined](https://twitter.com/hyperdefined)
 * Telegram - [@hyperdefined](https://t.me/hyperdefined)
-* Mastodon - [@hyperdefined@bark.lgbt](https://bark.lgbt/@hyperdefined)
 
 I do use Discord, but I don't accept random friend requests unless we move a conversation over there.
 
