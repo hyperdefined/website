@@ -1,11 +1,11 @@
 <script lang="ts">
-	//const commit = __COMMIT_HASH__;
+	const commit = __COMMIT_HASH__;
 </script>
 
 <footer class="rainbow-top">
 	<p>
 		© hyper.lol - Happy barking! - <a
-			href="https://git.canine.tools/canine.tools/canine.tools/commit/bruh">commit</a
+			href="https://git.canine.tools/canine.tools/canine.tools/commit/{commit}">{commit}</a
 		>
 	</p>
 </footer>
