@@ -66,17 +66,17 @@ figcaption {
 }
 
 .alert-box {
-		border-color: green;
-		background: #003000;
-	}
+	border-color: green;
+	background: #003000;
+}
 
 /* Lightmode things */
 @media (prefers-color-scheme: light) {
 	pre {
 		background: #f6f8fa;
 	}
-	  .alert-box {
-		  border-color: darkgreen;
-		  background: #88d388ff;
-	  }
+	.alert-box {
+		border-color: darkgreen;
+		background: #88d388ff;
+	}
 }
