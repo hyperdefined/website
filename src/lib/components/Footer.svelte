@@ -5,7 +5,7 @@
 <footer class="rainbow-top">
 	<p>
 		© hyper.lol - Happy barking! - <a
-			href="https://git.canine.tools/canine.tools/canine.tools/commit/{commit}">{commit}</a
+			href="https://github.com/hyperdefined/website/commit/{commit}">{commit}</a
 		>
 	</p>
 </footer>
