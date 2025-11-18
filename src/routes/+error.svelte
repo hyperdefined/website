@@ -19,4 +19,4 @@
 
 <h2>{status} - {message}</h2>
 <p>There was an issue fetching this page: {message}</p>
-<Img src="/assets/images/404.png" alt="Wolf curled up in the snow" />
+<Img src="/assets/images/web-app-manifest-192x192.png" alt="hyperdefined's sona but sad" />
