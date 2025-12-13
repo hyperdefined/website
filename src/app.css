@@ -70,6 +70,31 @@ figcaption {
 	background: #003000;
 }
 
+:where(h1, h2, h3, h4, h5, h6) {
+	display: flex;
+	align-items: baseline;
+	gap: 0.35em;
+}
+
+.heading-anchor {
+	width: 1.2em;
+	margin-left: -1.2em;
+	text-align: center;
+	opacity: 0;
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+}
+
+:where(h1, h2, h3, h4, h5, h6):hover .heading-anchor {
+	opacity: 1;
+}
+
+.heading-anchor::before {
+	content: '#';
+	line-height: 1;
+}
+
 /* Lightmode things */
 @media (prefers-color-scheme: light) {
 	pre {

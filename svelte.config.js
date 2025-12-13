@@ -12,7 +12,19 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			remarkPlugins: [remarkGfm],
-			rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'append' }]]
+			rehypePlugins: [
+				rehypeSlug,
+				[
+					rehypeAutolinkHeadings,
+					{
+						behavior: 'prepend',
+						properties: {
+							className: ['heading-anchor'],
+							'aria-label': 'Copy link to section'
+						}
+					}
+				]
+			]
 		})
 	],
 	kit: {

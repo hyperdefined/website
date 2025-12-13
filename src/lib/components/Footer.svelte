@@ -4,8 +4,8 @@
 
 <footer class="rainbow-top">
 	<p>
-		© hyper.lol - Happy barking! - <a
-			href="https://github.com/hyperdefined/website/commit/{commit}">{commit}</a
+		© hyper.lol - Happy barking! - <a href="https://github.com/hyperdefined/website/commit/{commit}"
+			>{commit}</a
 		>
 	</p>
 </footer>
