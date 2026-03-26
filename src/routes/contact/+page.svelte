@@ -13,11 +13,12 @@
 	<meta name="twitter:description" content="hyperdefined's contact information." />
 </svelte:head>
 
-<h2>Projects</h2>
+<h2>Contact</h2>
 <p>You can find me on most social media sites as <code>hyperdefined</code>.</p>
 <ul>
 	<li>Twitter - <a href="https://twitter.com/hyperdefined">@hyperdefined</a></li>
-	<li>Telegram - <a href="https://t.me/hyperdefined">@hyperdefined</a> (slow response)</li>
+	<li>Bluesky - <a href="https://bsky.app/profile/hyper.lol">@hyper.lol</a></li>
+	<li>Telegram - <a href="https://t.me/hyperdefined">@hyperdefined</a> (slow response, rarely check)</li>
 </ul>
 <p>
 	I do use Discord, but I don't accept random friend requests unless we move a conversation over
