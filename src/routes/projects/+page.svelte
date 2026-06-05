@@ -17,13 +17,13 @@
 <p>This is a collection of things I've worked on and want to showcase.</p>
 <h3>Minecraft Plugins</h3>
 <p>
-	I've focused on developing and maintaining Minecraft server plugins. I&#39;ve also ran servers off
+	I make Minecraft server plugins. I've also ran servers off
 	and on since 2011.
 </p>
 <p>
 	You can find my plugins on <a href="https://hangar.papermc.io/hyperdefined">Hangar</a>,
 	<a href="https://modrinth.com/user/hyperdefined">Modrinth</a>, and my
-	<a href="https://github.com/hyperdefined?tab=repositories">GitHub</a>. There's too many to list
+	<a href="https://codeberg.org/hyperdefined?tab=repositories">Codeberg</a>. There's too many to list
 	here.
 </p>
 <hr />
@@ -31,17 +31,17 @@
 <p>These are various other projects I've made.</p>
 <ul>
 	<li>
-		<a href="https://github.com/hyperdefined/CustomLauncherRewrite">CustomLauncherRewrite</a> - A fully
+		<a href="https://codeberg.org/hyperdefined/CustomLauncherRewrite">CustomLauncherRewrite</a> - A fully
 		standalone custom launcher for Toontown Rewritten.
 	</li>
 	<li>
-		<a href="https://github.com/hyperdefined/GitHubReleaseAPI">GitHubReleaseAPI</a> - A simple and small
-		library for accessing GitHub releases for a repository.
+		<a href="https://codeberg.org/hyperdefined/CodebergReleaseAPI">CodebergReleaseAPI</a> - A simple and small
+		library for accessing Codeberg releases for a repository.
 	</li>
 	<li><a href="https://cobalt.directory/">cobalt.directory</a> - A cobalt tracker.</li>
-	<li><a href="https://github.com/hyperdefined/hyperbot">hyperbot</a> - A personal Discord bot.</li>
+	<li><a href="https://codeberg.org/hyperdefined/hyperbot">hyperbot</a> - A personal Discord bot.</li>
 	<li>
-		<a href="https://github.com/hyperdefined/hyperlib">hyperlib</a> - A library used for Minecraft plugins.
+		<a href="https://codeberg.org/hyperdefined/hyperlib">hyperlib</a> - A library used for Minecraft plugins.
 	</li>
 </ul>
 <hr />
@@ -62,8 +62,3 @@
 		for a friend.
 	</li>
 </ul>
-<h3>Other</h3>
-<p>
-	I'm also one of the founders of an upcoming charity that aids the furry community. I am
-	specifically the CTO and run all tech things.
-</p>

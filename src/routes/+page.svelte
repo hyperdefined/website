@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import RandomWolf from '$lib/components/RandomWolf.svelte';
+	import NowPlayingWidget from '$lib/components/NowPlayingWidget.svelte';
 
 	const siteUrl = page.url.origin;
 </script>
@@ -27,16 +28,9 @@
 </svelte:head>
 <h2>Welcome!</h2>
 <p>
-	Awrf! I'm hyperdefined, a fluffy, flower wolf. I'm a furry, therian, and a big disappointment. I'm
-	an IT nerd and developer. I'm also a fursuiter!
+	Awrf! I'm hyperdefined, a fluffy, flower wolf. I'm a furry, therian, IT, and beginner
+	photographer.
 </p>
-<p>I love to code, run servers, play games, read, and listen to music!</p>
-
-<p>
-	I've been coding off and on since 2012, and more seriously since 2018. I've been doing web
-	development even earlier and system admin things since 2018.
-</p>
-
 <p>
 	This website is my corner of the internet. Please be nice, and wipe your paws before entering!
 </p>
@@ -65,7 +59,15 @@
 		><img src="https://spax.zone/buttons/spaxdotzone.gif" height="31" alt="spax.zone badge" /></a
 	>
 	<img class="off-glb" src="/assets/images/badges/gay.gif" height="31" alt="rainbow badge" />
+	<a href="https://beepi.ng">
+		<img src="https://beepi.ng/88x31.png" width="88" height="31" alt="unnick" />
+	</a>
+	<a href="https://proot.party/">
+		<img src="https://beepi.ng/buttons/prootparty.avif" width="88" height="31" alt="proot.party" />
+	</a>
 </div>
+
+<NowPlayingWidget />
 <hr />
 <RandomWolf />
 

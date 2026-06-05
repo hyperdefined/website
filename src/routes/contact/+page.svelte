@@ -18,7 +18,9 @@
 <ul>
 	<li>Twitter - <a href="https://twitter.com/hyperdefined">@hyperdefined</a></li>
 	<li>Bluesky - <a href="https://bsky.app/profile/hyper.lol">@hyper.lol</a></li>
-	<li>Telegram - <a href="https://t.me/hyperdefined">@hyperdefined</a> (slow response, rarely check)</li>
+	<li>
+		Telegram - <a href="https://t.me/hyperdefined">@hyperdefined</a> (slow response, rarely check)
+	</li>
 </ul>
 <p>
 	I do use Discord, but I don't accept random friend requests unless we move a conversation over
