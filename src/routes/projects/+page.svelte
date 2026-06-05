@@ -16,15 +16,12 @@
 <h2>Projects</h2>
 <p>This is a collection of things I've worked on and want to showcase.</p>
 <h3>Minecraft Plugins</h3>
-<p>
-	I make Minecraft server plugins. I've also ran servers off
-	and on since 2011.
-</p>
+<p>I make Minecraft server plugins. I've also ran servers off and on since 2011.</p>
 <p>
 	You can find my plugins on <a href="https://hangar.papermc.io/hyperdefined">Hangar</a>,
 	<a href="https://modrinth.com/user/hyperdefined">Modrinth</a>, and my
-	<a href="https://codeberg.org/hyperdefined?tab=repositories">Codeberg</a>. There's too many to list
-	here.
+	<a href="https://codeberg.org/hyperdefined?tab=repositories">Codeberg</a>. There's too many to
+	list here.
 </p>
 <hr />
 <h3>Standalone</h3>
@@ -35,11 +32,13 @@
 		standalone custom launcher for Toontown Rewritten.
 	</li>
 	<li>
-		<a href="https://codeberg.org/hyperdefined/CodebergReleaseAPI">CodebergReleaseAPI</a> - A simple and small
-		library for accessing Codeberg releases for a repository.
+		<a href="https://codeberg.org/hyperdefined/CodebergReleaseAPI">CodebergReleaseAPI</a> - A simple and
+		small library for accessing Codeberg releases for a repository.
 	</li>
 	<li><a href="https://cobalt.directory/">cobalt.directory</a> - A cobalt tracker.</li>
-	<li><a href="https://codeberg.org/hyperdefined/hyperbot">hyperbot</a> - A personal Discord bot.</li>
+	<li>
+		<a href="https://codeberg.org/hyperdefined/hyperbot">hyperbot</a> - A personal Discord bot.
+	</li>
 	<li>
 		<a href="https://codeberg.org/hyperdefined/hyperlib">hyperlib</a> - A library used for Minecraft plugins.
 	</li>

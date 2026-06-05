@@ -26,15 +26,21 @@
 	friends, which lead me to making plugins.
 </p>
 
-<p>Since those first times creating plugins, I've created a multitude of them. I've expanded my programming into other fields, like small programs or websites.</p>
-
 <p>
-	I'm also a furry! I found my love for them well over a decade ago. I've only been involved in the fandom in the
-	more recent years, creating my sona and meeting new friends ever since joining it. I've been
-	claimed in a FurPack for a few years now.
+	Since those first times creating plugins, I've created a multitude of them. I've expanded my
+	programming into other fields, like small programs or websites.
 </p>
 
-<p>I am also a therian! I've been a wolf boy all my life, and only recent found out it's my identify through books. I identify as a wolf inside a human body, trying to fit in with other humans.</p>
+<p>
+	I'm also a furry! I found my love for them well over a decade ago. I've only been involved in the
+	fandom in the more recent years, creating my sona and meeting new friends ever since joining it.
+	I've been claimed in a FurPack for a few years now.
+</p>
+
+<p>
+	I am also a therian! I've been a wolf boy all my life, and only recent found out it's my identify
+	through books. I identify as a wolf inside a human body, trying to fit in with other humans.
+</p>
 
 <p>
 	I've also picked up on photography. Since FWA 2026, I really enjoyed taking photos of fluffs.

@@ -6,7 +6,7 @@
 
 <header class="rainbow-bottom">
 	<div class="navbar-icon">
-		<img src="/assets/images/icon.png" alt="canine.tools logo" />
+		<img src="https://unavatar.io/x/hyperdefined" alt="hyperdefined avatar" />
 	</div>
 	<h1>hyperdefined</h1>
 	<button
