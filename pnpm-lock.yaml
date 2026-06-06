@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      dayjs:
+        specifier: ^1.11.21
+        version: 1.11.21
       flowbite-svelte:
         specifier: ^1.17.4
         version: 1.30.1(rollup@4.60.1)(svelte@5.56.1(@typescript-eslint/types@8.57.1))(tailwindcss@4.1.18)
@@ -1121,6 +1124,9 @@ packages:
 
   date-fns@4.1.0:
     resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
+
+  dayjs@1.11.21:
+    resolution: {integrity: sha512-98IT+HOahAisibz/yjKbzuOBwYcjJ7BCLPzARyHiyEBmRz4fatF+KPJszEHXsGYjUG234aH/cOjW1wwTbKUZlA==}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -2825,6 +2831,8 @@ snapshots:
   cssesc@3.0.0: {}
 
   date-fns@4.1.0: {}
+
+  dayjs@1.11.21: {}
 
   debug@4.4.3:
     dependencies:

@@ -29,6 +29,11 @@ body {
 h1 {
 	overflow-wrap: break-word;
 	word-break: normal;
+	border-bottom: unset;
+}
+
+h2, h3 {
+	border-bottom: unset;
 }
 
 .table-container {

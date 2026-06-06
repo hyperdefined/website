@@ -60,4 +60,7 @@
 		<a href="https://drinks.ardenwolfsky.com">drinks.ardenwolfsky.com</a> - Drink catalog and recipes
 		for a friend.
 	</li>
+	<li>
+		<a href="https://urpack.net">furpack.net</a> - Small site for my friend group.
+	</li>
 </ul>

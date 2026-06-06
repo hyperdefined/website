@@ -35,6 +35,7 @@
 		"vite": "^7.3.2"
 	},
 	"dependencies": {
+		"dayjs": "^1.11.21",
 		"flowbite-svelte": "^1.17.4",
 		"mdsvex": "^0.12.6",
 		"remark-gfm": "^4.0.1",

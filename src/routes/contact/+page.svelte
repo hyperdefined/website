@@ -14,7 +14,7 @@
 </svelte:head>
 
 <h2>Contact</h2>
-<p>You can find me on most social media sites as <code>hyperdefined</code>.</p>
+<p>You can find me on most social media sites as <code>hyperdefined</code>. I am quite shy, but I'll try my best to respond.</p>
 <ul>
 	<li>Twitter - <a href="https://twitter.com/hyperdefined">@hyperdefined</a></li>
 	<li>Bluesky - <a href="https://bsky.app/profile/hyper.lol">@hyper.lol</a></li>

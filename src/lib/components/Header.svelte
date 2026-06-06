@@ -6,9 +6,8 @@
 
 <header class="rainbow-bottom">
 	<div class="navbar-icon">
-		<img src="https://unavatar.io/x/hyperdefined" alt="hyperdefined avatar" />
+		<img src="/assets/images/logo/wide.png" alt="hyperdefined logo" />
 	</div>
-	<h1>hyperdefined</h1>
 	<button
 		class="menu-toggle"
 		aria-label="Toggle navigation"
@@ -69,9 +68,8 @@
 	}
 
 	.navbar-icon img {
-		border-radius: 50%;
 		margin-bottom: 0;
-		width: 120px;
+		width: 400px;
 	}
 
 	nav {

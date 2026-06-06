@@ -27,7 +27,7 @@
 </p>
 <p>
 	He also has a gray heart on his butt. Likes to wear flower crowns and circle glasses, but aren't
-	required. Blue eyes &amp; big fang teeth that poke out.
+	required. Blue eyes &amp; big fang teeth that poke out. He has some facial hair on his chin.
 </p>
 <p>Original design of him was created by <a href="https://twitter.com/ligermaws">@ligermaws</a>.</p>
 <hr />

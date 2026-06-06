@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import RandomWolf from '$lib/components/RandomWolf.svelte';
-	import NowPlayingWidget from '$lib/components/NowPlayingWidget.svelte';
 
 	const siteUrl = page.url.origin;
 </script>
@@ -28,11 +27,10 @@
 </svelte:head>
 <h2>Welcome!</h2>
 <p>
-	Awrf! I'm hyperdefined, a fluffy, flower wolf. I'm a furry, therian, IT, and beginner
-	photographer.
+	Awrf! I'm <i>hyperdefined</i>, a fluffy, flower wolf. You can also call me <i>hyper</i> or <i>flower</i>. I'm a system administrator, developer, gamer, and beginner photographer.
 </p>
 <p>
-	This website is my corner of the internet. Please be nice, and wipe your paws before entering!
+	This website is my corner of the internet. This site has my blog, projects, sona information, and how to reach me.
 </p>
 <div class="badges">
 	<a href="https://canine.tools"
@@ -67,9 +65,10 @@
 	</a>
 </div>
 
-<NowPlayingWidget />
 <hr />
-<RandomWolf />
+<div class="sticker">
+	<img src="/assets/images/7.png" alt="hyperdefined sticker saying hello"/>
+</div>
 
 <style>
 	.badges {
@@ -80,5 +79,11 @@
 		image-rendering: crisp-edges;
 		image-rendering: pixelated;
 		image-rendering: -webkit-optimize-contrast;
+	}
+	.sticker {
+		text-align: center;
+	}
+	.sticker img {
+		width: 300px;
 	}
 </style>
