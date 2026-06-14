@@ -32,7 +32,8 @@ h1 {
 	border-bottom: unset;
 }
 
-h2, h3 {
+h2,
+h3 {
 	border-bottom: unset;
 }
 
@@ -98,6 +99,25 @@ figcaption {
 .heading-anchor::before {
 	content: '#';
 	line-height: 1;
+}
+
+pre {
+	padding: 1rem 1rem;
+}
+
+pre > code {
+	display: flex;
+	flex-direction: column;
+}
+
+code[data-line-numbers] > span[data-line-number]::before {
+  content: attr(data-line-number);
+  display: inline-block;
+  width: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-align: right;
+  color: gray;
 }
 
 /* Lightmode things */

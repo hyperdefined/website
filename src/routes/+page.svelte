@@ -27,10 +27,12 @@
 </svelte:head>
 <h2>Welcome!</h2>
 <p>
-	Awrf! I'm <i>hyperdefined</i>, a fluffy, flower wolf. You can also call me <i>hyper</i> or <i>flower</i>. I'm a system administrator, developer, gamer, and beginner photographer.
+	Awrf! I'm <i>hyperdefined</i>, a fluffy, flower wolf. You can also call me <i>hyper</i> or
+	<i>flower</i>. I'm a system administrator, developer, gamer, and beginner photographer.
 </p>
 <p>
-	This website is my corner of the internet. This site has my blog, projects, sona information, and how to reach me.
+	This website is my corner of the internet. This site has my blog, projects, sona information, and
+	how to reach me.
 </p>
 <div class="badges">
 	<a href="https://canine.tools"
@@ -67,7 +69,7 @@
 
 <hr />
 <div class="sticker">
-	<img src="/assets/images/7.png" alt="hyperdefined sticker saying hello"/>
+	<img src="/assets/images/7.png" alt="hyperdefined sticker saying hello" />
 </div>
 
 <style>

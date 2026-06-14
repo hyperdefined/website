@@ -4,6 +4,7 @@ import { mdsvex } from 'mdsvex';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import { createHighlighter } from '@bitmachina/highlighter';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -24,7 +25,13 @@ const config = {
 						}
 					}
 				]
-			]
+			],
+			highlight: {
+				highlighter: await createHighlighter({ theme: 'github-dark' }),
+				lineOptions: {
+					lineNumbers: true
+				}
+			}
 		})
 	],
 	kit: {
