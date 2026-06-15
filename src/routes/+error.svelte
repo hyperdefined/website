@@ -19,4 +19,7 @@
 
 <h2>{status} - {message}</h2>
 <p>There was an issue fetching this page: {message}</p>
-<CenteredImage src="/assets/images/web-app-manifest-192x192.png" alt="hyperdefined's sona but sad" />
+<CenteredImage
+	src="/assets/images/web-app-manifest-192x192.png"
+	alt="hyperdefined's sona but sad"
+/>
