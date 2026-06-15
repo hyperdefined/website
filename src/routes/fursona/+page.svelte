@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { Img } from 'flowbite-svelte';
+	import CenteredImage from '$lib/components/CenteredImage.svelte';
 	const currentUrl = page.url.href;
 </script>
 
@@ -15,9 +15,10 @@
 </svelte:head>
 
 <h2>Fursona</h2>
-<Img
+<CenteredImage
 	src="/assets/images/fursona/1.jpg"
 	alt="hyperdefined's fursona standing next to cherry tree"
+	radius="24px"
 	caption="Photo by <a href='https://www.furtrack.com/user/AndromedusWolf/'>AndromedusWolf</a>"
 />
 <hr />
@@ -40,11 +41,7 @@
 </ul>
 <hr />
 <h3 id="reference-sheet">Reference Sheet</h3>
-<Img
-	src="/assets/images/fursona/ref.png"
-	alt="Hyperdefined's fursona reference sheet"
-	caption="Photo by <a href='https://www.furtrack.com/user/AndromedusWolf/'>AndromedusWolf</a>"
-/>
+<CenteredImage src="/assets/images/fursona/ref.png" alt="hyperdefined's fursona reference sheet" />
 <hr />
 <h2 id="history">History</h2>
 <p>
@@ -99,14 +96,18 @@
 </table>
 
 <div class="gallery">
-	<Img
+	<CenteredImage
 		src="/assets/images/fursona/2.jpg"
+		width="95%"
 		alt="hyperdefined's fursona in a pride parade with a pride cape"
+		radius="24px"
 		caption="Photo by <a href='https://www.furtrack.com/user/AndromedusWolf/'>AndromedusWolf</a>"
 	/>
-	<Img
+	<CenteredImage
 		src="/assets/images/fursona/3.jpg"
+		width="95%"
 		alt="hyperdefined with hands on face in front of cherry tree"
+		radius="24px"
 		caption="Photo by <a href='https://www.furtrack.com/user/AndromedusWolf/'>AndromedusWolf</a>"
 	/>
 </div>

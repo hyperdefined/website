@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { Img } from 'flowbite-svelte';
+	import CenteredImage from '$lib/components/CenteredImage.svelte';
 
 	const currentUrl = page.url.href;
 	const status = String(page.status);
@@ -19,4 +19,4 @@
 
 <h2>{status} - {message}</h2>
 <p>There was an issue fetching this page: {message}</p>
-<Img src="/assets/images/web-app-manifest-192x192.png" alt="hyperdefined's sona but sad" />
+<CenteredImage src="/assets/images/web-app-manifest-192x192.png" alt="hyperdefined's sona but sad" />

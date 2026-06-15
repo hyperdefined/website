@@ -1,6 +1,6 @@
 <script lang="ts">
+	import CenteredImage from '$lib/components/CenteredImage.svelte';
 	import { page } from '$app/state';
-	import { Img } from 'flowbite-svelte';
 	const currentUrl = page.url.href;
 </script>
 
@@ -15,9 +15,11 @@
 </svelte:head>
 
 <h2>About</h2>
-<div class="sticker">
-	<img src="/assets/images/idk.png" alt="hyperdefined sticker saying hello" />
-</div>
+<CenteredImage
+	src="/assets/images/fursona/idk.png"
+	alt="hyperdefined side view holding rose in mouth"
+	width="300px"
+/>
 <hr />
 <p>Awrf! I'm hyperdefined. I'm a canis lupus (wolf) and this is my corner of the internet.</p>
 

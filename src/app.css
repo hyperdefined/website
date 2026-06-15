@@ -111,13 +111,13 @@ pre > code {
 }
 
 code[data-line-numbers] > span[data-line-number]::before {
-  content: attr(data-line-number);
-  display: inline-block;
-  width: 1rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
-  text-align: right;
-  color: gray;
+	content: attr(data-line-number);
+	display: inline-block;
+	width: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	text-align: right;
+	color: gray;
 }
 
 /* Lightmode things */

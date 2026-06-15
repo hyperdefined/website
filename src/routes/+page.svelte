@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import RandomWolf from '$lib/components/RandomWolf.svelte';
+	import CenteredImage from '$lib/components/CenteredImage.svelte';
 
 	const siteUrl = page.url.origin;
 </script>
@@ -68,9 +69,11 @@
 </div>
 
 <hr />
-<div class="sticker">
-	<img src="/assets/images/7.png" alt="hyperdefined sticker saying hello" />
-</div>
+<CenteredImage
+	src="/assets/images/fursona/7.png"
+	alt="hyperdefined sticker saying hello"
+	width="300px"
+/>
 
 <style>
 	.badges {
@@ -81,11 +84,5 @@
 		image-rendering: crisp-edges;
 		image-rendering: pixelated;
 		image-rendering: -webkit-optimize-contrast;
-	}
-	.sticker {
-		text-align: center;
-	}
-	.sticker img {
-		width: 300px;
 	}
 </style>
